@@ -37,7 +37,6 @@ header {
   margin: auto;
   display: flex;
   align-items: center;
-
 }
 
 .title {
@@ -180,6 +179,7 @@ header {
   font-size: 1em;
   padding: 1em 1em 1em 1em;
   width: 50vw;
+  align-items: center;
 }
 
 /* NOM ET AGE */
