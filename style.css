@@ -193,11 +193,6 @@ header {
   flex-wrap: nowrap;
 }
 
-.profilePage h1 {
-  margin: 0;
-  font-size: 1.5rem;
-}
-
 .profileName {
   width: 40vw;
   font-weight: bold;
