@@ -244,12 +244,6 @@ header {
   font-weight: bold;
 }
 
-.bio {
-  list-style-type: none;
-  text-align: center;
-  text-decoration: underline;
-}
-
 .projects {
   list-style-type: none;
 }
