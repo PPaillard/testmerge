@@ -223,6 +223,7 @@ header {
   justify-content: space-around;
   flex-wrap: nowrap;
   list-style-type: none;
+  text-align: center;
 }
 
 .languageIcons {
@@ -238,6 +239,7 @@ header {
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: nowrap;
+  border-radius: 20%;
 }
 
 .profileTitle {
@@ -247,6 +249,7 @@ header {
 
 .bio {
   list-style-type: none;
+  text-align: center;
 }
 
 .projects {
@@ -306,7 +309,6 @@ nav ul li a {
   margin-left: 12rem;
   padding-right: 1rem;
   white-space: pre;
-
 }
 
 
@@ -317,9 +319,6 @@ nav ul li a {
   row-gap: 30px;
   margin-top: 140px;
   margin-left: 50px;
-  margin-right: 50px;
-
-
 }
 
 @media screen and (min-width : 768px) {
@@ -354,8 +353,6 @@ nav ul li a {
 
 .profileName2 {
   display: none;
-  
-  
   background-color: #1212123e;
 }
   /*background: linear-gradient(90deg, #12121299, #fbb04ccc);
@@ -370,7 +367,6 @@ nav ul li a {
 
 .languageIcons2 {
   height: 35px;
-
 }
 
 /*mise en page name sur card*/
@@ -383,6 +379,22 @@ nav ul li a {
   font-size: 24px;
   color:#F8EEE1 ;
   border-radius: 5px;
- 
+}
 
+#buttonPink{
+  background-color: pink;
+  border-radius: 20%;
+}
+
+.teacherCard {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.teacherCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.teacherContainer {
+  padding: 2px 16px;
 }
